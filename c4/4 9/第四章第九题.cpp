@@ -1,28 +1,40 @@
-// µÚËÄÕÂµÚ¾ÅÌâ.cpp : Defines the entry point for the console application.
+// ç¬¬å››ç« ç¬¬ä¹é¢˜.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
 
 int main(int argc, char* argv[])
 {
-	int a,b,x1,x2,x3,x4;
-	printf("ÊäÈëÒ»Î»²»¶àÓÚ5Î»µÄÕıÕûÊı:");
+	int a,b,x1,x2,x3,x4,x5;
+	printf("è¾“å…¥ä¸€ä½ä¸å¤šäº5ä½çš„æ­£æ•´æ•°:");
 	scanf("%d",&a);
-	if(a>9999)
+	if(a>99999)
 	{
-		printf("ÖØĞÂÊäÈë:\n");
+		printf("é‡æ–°è¾“å…¥:\n");
 		scanf("%d",&a);
 	}
-	if(a<=9999&&a>999)
+	if(a>9999)
+	{	b=5;
+		x1=a%10;
+		x2=(a/10)%10;
+		x3=(a/100)%10;
+		x4=(a/1000)%10;
+	 	x5=a/10000;
+		printf("å®ƒæ˜¯%dä½æ•°\n",b);
+		printf("åˆ†åˆ«è¾“å‡º:%d%2d%2d%2d%2d\n",x5,x4,x3,x2,x1);
+		printf("é€†åºè¾“å‡º:%d%d%d%d%d\n",x1,x2,x3,x4,x5);
+
+	}
+	else if(a<=9999&&a>999)
 	{
 		b=4;
 		x1=a%10;
 		x2=(a/10)%10;
 		x3=(a/100)%10;
 		x4=a/1000;
-		printf("ËüÊÇ%dÎ»Êı\n",b);
-		printf("·Ö±ğÊä³ö:%d%2d%2d%2d\n",x4,x3,x2,x1);
-		printf("ÄæĞòÊä³ö:%d%d%d%d\n",x1,x2,x3,x4);
+		printf("å®ƒæ˜¯%dä½æ•°\n",b);
+		printf("åˆ†åˆ«è¾“å‡º:%d%2d%2d%2d\n",x4,x3,x2,x1);
+		printf("é€†åºè¾“å‡º:%d%d%d%d\n",x1,x2,x3,x4);
 	}
 	else if(a<=999&&a>99)
 	{
@@ -30,9 +42,9 @@ int main(int argc, char* argv[])
 		x1=a%10;
 		x2=(a/10)%10;
 		x3=a/100;
-		printf("ËüÊÇ%dÎ»Êı\n",b);
-		printf("·Ö±ğÊä³ö:%d%2d%2d\n",x3,x2,x1);
-		printf("ÄæĞòÊä³ö:%d%d%d\n",x1,x2,x3);
+		printf("å®ƒæ˜¯%dä½æ•°\n",b);
+		printf("åˆ†åˆ«è¾“å‡º:%d%2d%2d\n",x3,x2,x1);
+		printf("é€†åºè¾“å‡º:%d%d%d\n",x1,x2,x3);
 			
 	}
 	else if(a<=99&&a>9)
@@ -40,18 +52,18 @@ int main(int argc, char* argv[])
 		b=2;
 		x1=a%10;
 		x2=a/10;
-		printf("ËüÊÇ%dÎ»Êı\n",b);
-		printf("·Ö±ğÊä³ö:%d%2d\n",x2,x1);
-		printf("ÄæĞòÊä³ö:%d%d\n",x1,x2);
+		printf("å®ƒæ˜¯%dä½æ•°\n",b);
+		printf("åˆ†åˆ«è¾“å‡º:%d%2d\n",x2,x1);
+		printf("é€†åºè¾“å‡º:%d%d\n",x1,x2);
 	}	
 		
 	else
 	{
 		b=1;
 		x1=a;
-		printf("ËüÊÇ%dÎ»Êı\n",b);
-		printf("·Ö±ğÊä³ö:%d\n",x1);
-		printf("ÄæĞòÊä³ö:%d\n",x1);
+		printf("å®ƒæ˜¯%dä½æ•°\n",b);
+		printf("åˆ†åˆ«è¾“å‡º:%d\n",x1);
+		printf("é€†åºè¾“å‡º:%d\n",x1);
 	}
 	return 0;
 }
