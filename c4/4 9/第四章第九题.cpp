@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
 		x1=a;
 		printf("它是%d位数\n",b);
 		printf("分别输出:%d\n",x1);
-		printf("逆序输出:%d\n",x1);
+		printf("逆序输出:%d\n",x1)
 	}
 	return 0;
 }
