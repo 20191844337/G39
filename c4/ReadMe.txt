@@ -1,34 +1,18 @@
-========================================================================
-       CONSOLE APPLICATION : 4 8
-========================================================================
+1 算数运算是指加减乘除以及取余运算
+  关系运算是指比较
+  逻辑运算是指两个条件进行运算
+2 C语言中以非0代表真，以0代表假
+  系统用1代表真，用0代表假
+3（1）a+b>c&&b==c      0
+  (2) a||b+c&& b-c     1
+  (3) !(a>b)&& !c||1   1
+  (4) !(x=a)&&(y=b)&&0     0
+  (5) !(a+b)+c-1&&b+c/2    1
+7(1)不能实现题目要求  else与第二个if配对
+ (2)不能实现题目要求
+第四章课后题完成情况:
 
-
-AppWizard has created this 4 8 application for you.  
-
-This file contains a summary of what you will find in each of the files that
-make up your 4 8 application.
-
-4 8.dsp
-    This file (the project file) contains information at the project level and
-    is used to build a single project or subproject. Other users can share the
-    project (.dsp) file, but they should export the makefiles locally.
-
-4 8.cpp
-    This is the main application source file.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named 4 8.pch and a precompiled types file named StdAfx.obj.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+第4.6题    冯源   20191844332
+第 8 题    胡钧   20191844303
+第 5 题    张栋   20191844337
+第 9 题    王艺馨 20191844327
