@@ -1,34 +1,3 @@
-========================================================================
-       CONSOLE APPLICATION : pi 3
-========================================================================
-
-
-AppWizard has created this pi 3 application for you.  
-
-This file contains a summary of what you will find in each of the files that
-make up your pi 3 application.
-
-pi 3.dsp
-    This file (the project file) contains information at the project level and
-    is used to build a single project or subproject. Other users can share the
-    project (.dsp) file, but they should export the makefiles locally.
-
-pi 3.cpp
-    This is the main application source file.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named pi 3.pch and a precompiled types file named StdAfx.obj.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+公式：pi/4=1-1/3+1/5-……
+结果：3.1415926336
+最精确
