@@ -1,34 +1,7 @@
-========================================================================
-       CONSOLE APPLICATION : daffodil
-========================================================================
+作业完成情况：
+1、王艺馨 20191844327：第六章6，7，8，9
+   胡钧 20191844303：第六章10，11，12
+   张栋 20191844337： 第六章13，14，15
+   冯源 20191844332： 第七章1，6，7，8，11
+2、水仙花数：优化前160s，优化后125s
 
-
-AppWizard has created this daffodil application for you.  
-
-This file contains a summary of what you will find in each of the files that
-make up your daffodil application.
-
-daffodil.dsp
-    This file (the project file) contains information at the project level and
-    is used to build a single project or subproject. Other users can share the
-    project (.dsp) file, but they should export the makefiles locally.
-
-daffodil.cpp
-    This is the main application source file.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named daffodil.pch and a precompiled types file named StdAfx.obj.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
